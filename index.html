@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reshmi Raman | Senior DevOps Engineer</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --light-bg: #f4f7f6;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--light-bg);
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: var(--white);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            padding: 40px;
+            border-radius: 8px;
+        }
+
+        header {
+            border-bottom: 3px solid var(--accent-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .header-main h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .header-main p {
+            font-size: 1.2rem;
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        .header-contact {
+            text-align: right;
+            font-size: 0.9rem;
+        }
+
+        .header-contact p {
+            margin-bottom: 4px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        .profile-text {
+            font-style: italic;
+            background: #f9f9f9;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        .competencies-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .competency-item {
+            background: var(--light-bg);
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            border-left: 2px solid var(--accent-color);
+        }
+
+        .experience-item {
+            margin-bottom: 25px;
+        }
+
+        .exp-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+            color: var(--secondary-color);
+            margin-bottom: 8px;
+        }
+
+        .exp-title {
+            color: var(--accent-color);
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+
+        ul li::before {
+            content: "•";
+            color: var(--accent-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .education-item {
+            margin-bottom: 15px;
+        }
+
+        .education-item strong {
+            display: block;
+            color: var(--secondary-color);
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .header-contact {
+                text-align: left;
+                margin-top: 15px;
+            }
+        }
+
+        @media print {
+            body { padding: 0; background: none; }
+            .container { box-shadow: none; width: 100%; max-width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="header-main">
+            <h1>Reshmi Raman [cite: 1]</h1>
+            <p>Senior DevOps Engineer [cite: 2]</p>
+        </div>
+        <div class="header-contact">
+            <p>Seattle, Washington [cite: 4]</p>
+            <p>425-633-6468 [cite: 4]</p>
+            <p>reshmmyraman@gmail.com [cite: 5]</p>
+        </div>
+    </header>
+
+    <section>
+        <h2>Professional Profile</h2>
+        <p class="profile-text">
+            Senior DevOps & SRE Engineer with 7+ years of experience driving cloud automation, Kubernetes orchestration, CI/CD modernization, and observability for mission-critical telecom and enterprise platforms—bringing 10+ years of comprehensive IT expertise[cite: 17]. Proven record of reducing deployment times by 40%, improving availability by 30%, and cutting incident detection by 35%[cite: 17].
+        </p>
+    </section>
+
+    <section>
+        <h2>Core Competencies</h2>
+        <div class="competencies-grid">
+            <div class="competency-item">DevOps Leadership & Mentoring [cite: 7]</div>
+            <div class="competency-item">CI/CD Automation (GitLab, Jenkins) [cite: 8]</div>
+            <div class="competency-item">Kubernetes Orchestration (EKS, Helm) [cite: 9]</div>
+            <div class="competency-item">Infrastructure as Code (Terraform, Ansible) [cite: 10]</div>
+            <div class="competency-item">Monitoring & Observability (Splunk, AppDynamics) [cite: 11]</div>
+            <div class="competency-item">AWS Cloud Services [cite: 13]</div>
+            <div class="competency-item">Microservices & REST APIs [cite: 14]</div>
+            <div class="competency-item">SRE Practices (SLIs/SLOs, Postmortems) [cite: 14]</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Professional Experience</h2>
+
+        <div class="experience-item">
+            <div class="exp-header">
+                <span class="exp-title">Cloud Engineer Volunteer</span>
+                <span>Mentor A Promise | Present [cite: 21, 22]</span>
+            </div>
+            <ul>
+                <li>Designing, deploying and maintaining cloud infrastructure (AWS)[cite: 23].</li>
+                <li>Build and maintain fully automated CI/CD pipelines using GitHub workflow[cite: 24].</li>
+                <li>Implement reusable Terraform modules for AWS services[cite: 25].</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="exp-header">
+                <span class="exp-title">Senior DevOps / Site Reliability Engineer</span>
+                <span>Concentrix (Client: T-Mobile) | 2022 - 2025 [cite: 26]</span>
+            </div>
+            <ul>
+                <li>Guided junior engineers on Kubernetes, CI/CD, and Terraform best practices[cite: 27].</li>
+                <li>Designed GitLab/Jenkins pipelines, reducing deployment time by 40%[cite: 29].</li>
+                <li>Managed IVR microservices clusters, improving availability by 30%[cite: 30].</li>
+                <li>Integrated Argos + AppDynamics, cutting incident detection by 35%[cite: 31].</li>
+                <li>Implemented reusable Terraform + Ansible modules, reducing setup time by 50%[cite: 34].</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="exp-header">
+                <span class="exp-title">DevOps Engineer</span>
+                <span>TNS (Cequint) | 2021 - 2022 [cite: 36, 37]</span>
+            </div>
+            <ul>
+                <li>Delivered Azure cloud and Kubernetes automation using AKS and Terraform[cite: 40].</li>
+                <li>Built and maintained fully automated CI/CD pipelines for reliable releases[cite: 41].</li>
+                <li>Mentored team members on Terraform and Ansible standards[cite: 42].</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="exp-header">
+                <span class="exp-title">DevOps Support Engineer</span>
+                <span>T-Mobile - Wholesale Middleware | 2018 - 2020 [cite: 45, 46]</span>
+            </div>
+            <ul>
+                <li>Created Docker images and deployed to Kubernetes clusters[cite: 48, 55].</li>
+                <li>Managed source control with Git/Bitbucket, handling branching and merging[cite: 49].</li>
+                <li>Supported IAM/Tibco integrations and resolved server issues[cite: 50].</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Education & Certifications</h2>
+        <div class="education-item">
+            <strong>DevOps Certification & AWS Training</strong>
+            Intellipaat [cite: 68]
+        </div>
+        <div class="education-item">
+            <strong>Master of International Business Informatics (MBI)</strong>
+            European University Viadrina, Germany [cite: 69]
+        </div>
+        <div class="education-item">
+            <strong>Master of Business Administration (MBA)</strong>
+            IGNOU, India [cite: 70]
+        </div>
+        <div class="education-item">
+            <strong>Bachelor of Business Administration (BBA)</strong>
+            Mahatma Gandhi University, India [cite: 71]
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
